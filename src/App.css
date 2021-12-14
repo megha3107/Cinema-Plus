@@ -1,0 +1,63 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #24323f;
+  color: white;
+  /* padding-bottom: 70px; */
+}
+
+.movie_cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 120px 0px 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie_cards .media {
+  margin-right: 0px;
+}
+
+.page_container {
+  padding-bottom: 90px;
+}
+
+.genre_chips {
+  align-items: center;
+  justify-content: center;
+  padding: 0px 120px;
+}
+.MuiButton-label {
+  font-weight: bolder;
+  text-transform: none;
+}
+
+@media (max-width: 700px) {
+  .genre_chips {
+    padding: 0px 30px;
+  }
+  .movie_cards {
+    padding: 10px 20px 0px 20px;
+  }
+  .watchlist_cards .media {
+    margin-right: 0px;
+  }
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vw;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}

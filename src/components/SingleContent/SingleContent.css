@@ -1,0 +1,79 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  /* background-color: #1b262c; */
+  border-radius: 10px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-badge .MuiBadge-badge {
+  background-color: #21e18c !important;
+  color: black;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.media:hover {
+  background-color: #505b65;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 50px -12px;
+  color: white;
+  top: -10px;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 40%;
+    margin: 10px 0;
+  }
+  .poster {
+    height: 200px;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+  max-height: 85%;
+}
+
+.title {
+  width: 100%;
+  /* text-align: center; */
+  font-weight: 500;
+  font-size: 16px;
+  padding: 8px 0px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.subTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+
+.type {
+  float: left;
+  /* padding-left: 3px; */
+  bottom: 0;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.date {
+  float: right;
+  /* padding-right: 3px; */
+  bottom: 0;
+  font-size: 14px;
+  color: #cccccc;
+}
