@@ -5,8 +5,8 @@ Cinema Plus is a fully responsive website where you can find trending movies and
 
 __FEATURES__
 
-__Trending__ - Trending page displays all the trending moviea and tv series.
-__Movies__ - Movies page displays all the movies. It also has an option to search for movies based on different genres.
+*__Trending__ - Trending page displays all the trending moviea and tv series.
+*__Movies__ - Movies page displays all the movies. It also has an option to search for movies based on different genres.
 TV Series - TV Series page displays all the movies. It also has an option to search for tv series based on different genres.
 Search - Search page facilitates searching for both movies and tv series based on the text entered.
 Details - Displays the plot, cast crew and link to trailer of the movie/series selected.
